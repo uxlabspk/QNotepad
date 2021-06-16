@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Qt.png</file>
+        <file>Icon-Slack.png</file>
+        <file>Icon-youTube.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>wind/zoom-out.png</file>
+        <file>wind/zoom-in.png</file>
+        <file>wind/help-about.png</file>
+        <file>wind/edit-undo.png</file>
+        <file>wind/edit-undo-rtl.png</file>
+        <file>wind/edit-paste.png</file>
+        <file>wind/edit-delete.png</file>
+        <file>wind/edit-cut.png</file>
+        <file>wind/edit-copy.png</file>
+        <file>wind/document-save.png</file>
+        <file>wind/document-save-as.png</file>
+        <file>wind/document-revert.png</file>
+        <file>wind/document-revert-rtl.png</file>
+        <file>wind/document-print.png</file>
+        <file>wind/document-print-preview.png</file>
+        <file>wind/document-open.png</file>
+        <file>wind/document-new.png</file>
+        <file>wind/parrot.svg</file>
+        <file>wind/edit-select-all-symbolic.svg</file>
+        <file>wind/text-x-python.svg</file>
+        <file>wind/text-x-c++src.svg</file>
+        <file>wind/text-html.svg</file>
+        <file>wind/text-html-symbolic.svg</file>
+        <file>wind/folder-temp.svg</file>
+        <file>wind/folder-copycom.svg</file>
+        <file>wind/folder-builds.svg</file>
+        <file>wind/spyder.ico</file>
+        <file>wind/view-sort-descending.png</file>
+        <file>wind/view-sort-ascending.png</file>
+        <file>wind/logo.png</file>
+        <file>wind/interface_subroutine_gen.png</file>
+        <file>wind/comment_block.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix3">
+        <file>wizard/watermark2.png</file>
+        <file>wizard/watermark1.png</file>
+        <file>wizard/logo3.png</file>
+        <file>wizard/logo2.png</file>
+        <file>wizard/logo1.png</file>
+        <file>wizard/banner.png</file>
+        <file>wizard/background.png</file>
+    </qresource>
+</RCC>
