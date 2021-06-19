@@ -1,14 +1,30 @@
-# QNotepad
-A typical notepad app used on any os. It provide syntax highlightment for Html, c++, python and javascript.
-you can print pages, export to html, convert to html escape, insert date and time, insert c++ comments etc.
+# QNotePad
+      A typicall notepad to be run on any operating system
 
-#  Install  :
-      
-1. open the qt creator and open the project file.
-2. build it also by using terminal commands:
 
-      1. cd [dir]
-      2. qmake
-      3. make
-      
-This will create the binary files to be used on linux base systems.
+## Features:
+    * print pages.
+    * print preview.
+    * Export to html.
+    * Syntax highlight for(Java Script, Html, C++, Python).
+    * Convert to html escape.
+    * Insert comments.
+    * Insert time.
+    * Word count.
+    * Run html files.
+    * Run spyder files.
+    * Search on google.
+    * Provide styles Kvantum, breeze, Windows, Fusion.
+
+## Build:
+
+### windows:
+    * Open qt creator, open project and build.
+### Linux:
+    * Open terminal at project folder, write the followings:
+        * qmake
+        * make
+    * This will generate the binary file.
+
+### Pre-Build:
+    * This project also contains pre-build for 64bit Linux system.
