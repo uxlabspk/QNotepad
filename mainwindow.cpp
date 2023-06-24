@@ -47,7 +47,6 @@ MainWindow::MainWindow(QWidget *parent)
 
 
     connect(ui->plainTextEdit->document(), &QTextDocument::modificationChanged, this, &MainWindow::documentWasModified);
-    on_actionKvantum_triggered();
 }
 void MainWindow::documentWasModified()
 {
@@ -489,21 +488,6 @@ void MainWindow::on_actionWord_Count_triggered()
 {
     count();
 }
-void MainWindow::on_actionRun_SPYDER_file_triggered()
-{
-    on_actionSave_triggered();
-    if(currentFile.isEmpty())
-    {
-        QMessageBox::information(this,"Error","This is an empty file");
-    }
-    else
-    {
-        QString p = "python3 ";
-        QString cmd = p + currentFile;
-        const char* cmd1 = cmd.toLocal8Bit().constData();
-        system(cmd1);
-    }
-}
 
 void MainWindow::on_actionExport_to_HTML_triggered()
 {
@@ -545,10 +529,6 @@ void MainWindow::on_actionFind_triggered()
     }
 }
 
-void MainWindow::on_actionAdd_new_triggered()
-{
-    wizard.show();
-}
 void MainWindow::on_actionSearch_with_Google_triggered()
 {
     QString text;
@@ -562,27 +542,9 @@ void MainWindow::on_actionJava_script_triggered()
     js = new highjs(ui->plainTextEdit->document());
 }
 
-void MainWindow::on_actionKvantum_triggered()
+void MainWindow::on_actionFollow_me_on_twitter_triggered()
 {
-   QStyle *style = QStyleFactory::create("Kvantum");
-   QApplication::setStyle(style);
+    QUrl url;
+    url.setUrl("https://twitter.com/prog_naveed");
+    QDesktopServices::openUrl(url);
 }
-
-void MainWindow::on_actionWindows_triggered()
-{
-    QStyle *style = QStyleFactory::create("Windows");
-    QApplication::setStyle(style);
-}
-
-void MainWindow::on_actionFusion_triggered()
-{
-    QStyle *style = QStyleFactory::create("Fusion");
-    QApplication::setStyle(style);
-}
-
-void MainWindow::on_actionBreezr_triggered()
-{
-    QStyle *style = QStyleFactory::create("Breeze");
-    QApplication::setStyle(style);
-}
-

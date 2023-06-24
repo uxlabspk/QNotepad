@@ -26,5 +26,3 @@
         * make
     * This will generate the binary file.
 
-### Pre-Build:
-    * This project also contains pre-build for 64bit Linux system.

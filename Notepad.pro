@@ -14,20 +14,17 @@ SOURCES += \
     highlightcplus.cpp \
     main.cpp \
     mainwindow.cpp \
-    pyhigh.cpp \
-    wizard.cpp
+    pyhigh.cpp
 
 HEADERS += \
     high.h \
     highjs.h \
     highlightcplus.h \
     mainwindow.h \
-    pyhigh.h \
-    wizard.h
+    pyhigh.h
 
 FORMS += \
-    mainwindow.ui \
-    wizard.ui
+    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

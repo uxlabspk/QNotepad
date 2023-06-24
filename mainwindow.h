@@ -12,7 +12,6 @@
 #include <highlightcplus.h>
 #include <pyhigh.h>
 #include <QPrintPreviewDialog>
-#include <wizard.h>
 #include <QDesktopServices>
 #include <QPlainTextEdit>
 #include <highjs.h>
@@ -92,8 +91,6 @@ private slots:
 
     void on_actionWord_Count_triggered();
 
-    void on_actionRun_SPYDER_file_triggered();
-
     void textFamily(QString);
 
     void closeEvent(QCloseEvent *e);
@@ -118,8 +115,6 @@ private slots:
 
     void on_actionFind_triggered();
 
-    void on_actionAdd_new_triggered();
-
     void on_actionSearch_with_Google_triggered();
 
     void contextMenu();
@@ -128,13 +123,7 @@ private slots:
 
     void documentWasModified();
 
-    void on_actionKvantum_triggered();
-
-    void on_actionWindows_triggered();
-
-    void on_actionFusion_triggered();
-
-    void on_actionBreezr_triggered();
+    void on_actionFollow_me_on_twitter_triggered();
 
 private:
     Ui::MainWindow *ui;
@@ -150,7 +139,6 @@ private:
     int end = 0;
     bool check;
     bool modify;
-    Wizard wizard;
     QPlainTextEdit* edit;
     highjs* js;
 };

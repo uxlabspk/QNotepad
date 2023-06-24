@@ -164,7 +164,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>23</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFiles">
@@ -176,8 +176,8 @@
     <addaction name="actionSave"/>
     <addaction name="actionSave_as"/>
     <addaction name="actionPrint"/>
-    <addaction name="actionExit"/>
     <addaction name="actionPrint_Preview"/>
+    <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -233,7 +233,6 @@
     </property>
     <addaction name="actionRun_HTML"/>
     <addaction name="separator"/>
-    <addaction name="actionRun_SPYDER_file"/>
    </widget>
    <widget class="QMenu" name="menuExport">
     <property name="title">
@@ -246,27 +245,12 @@
      <string>About</string>
     </property>
     <addaction name="actionAbout_Qt"/>
-   </widget>
-   <widget class="QMenu" name="menuProjects">
-    <property name="title">
-     <string>Projects</string>
-    </property>
-    <addaction name="actionAdd_new"/>
+    <addaction name="actionFollow_me_on_twitter"/>
    </widget>
    <widget class="QMenu" name="menuStyles">
     <property name="title">
      <string>Search</string>
     </property>
-    <addaction name="actionSearch_with_Google"/>
-   </widget>
-   <widget class="QMenu" name="menuStyle">
-    <property name="title">
-     <string>Style</string>
-    </property>
-    <addaction name="actionKvantum"/>
-    <addaction name="actionWindows"/>
-    <addaction name="actionFusion"/>
-    <addaction name="actionBreezr"/>
    </widget>
    <addaction name="menuFiles"/>
    <addaction name="menuEdit"/>
@@ -274,10 +258,8 @@
    <addaction name="menuView"/>
    <addaction name="menuTools"/>
    <addaction name="menuRun"/>
-   <addaction name="menuAbout"/>
-   <addaction name="menuProjects"/>
    <addaction name="menuStyles"/>
-   <addaction name="menuStyle"/>
+   <addaction name="menuAbout"/>
   </widget>
   <widget class="QToolBar" name="toolBar">
    <property name="enabled">
@@ -321,7 +303,6 @@
    <addaction name="separator"/>
    <addaction name="actionRun_HTML"/>
    <addaction name="separator"/>
-   <addaction name="actionRun_SPYDER_file"/>
    <addaction name="separator"/>
    <addaction name="actionExit"/>
    <addaction name="separator"/>
@@ -639,16 +620,6 @@
     <string>Word Count</string>
    </property>
   </action>
-  <action name="actionRun_SPYDER_file">
-   <property name="icon">
-    <iconset theme="spyder">
-     <normalon>:/new/prefix2/wind/spyder.ico</normalon>
-    </iconset>
-   </property>
-   <property name="text">
-    <string>Run SPYDER file</string>
-   </property>
-  </action>
   <action name="actionExport_to_HTML">
    <property name="icon">
     <iconset>
@@ -702,24 +673,9 @@
     <string>Java script</string>
    </property>
   </action>
-  <action name="actionKvantum">
+  <action name="actionFollow_me_on_twitter">
    <property name="text">
-    <string>Kvantum</string>
-   </property>
-  </action>
-  <action name="actionWindows">
-   <property name="text">
-    <string>Windows</string>
-   </property>
-  </action>
-  <action name="actionFusion">
-   <property name="text">
-    <string>Fusion</string>
-   </property>
-  </action>
-  <action name="actionBreezr">
-   <property name="text">
-    <string>Breeze</string>
+    <string>Follow me on twitter</string>
    </property>
   </action>
  </widget>
