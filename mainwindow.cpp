@@ -43,7 +43,7 @@ MainWindow::MainWindow(QWidget *parent)
     check = 1;
 
     contextMenu();
-    ui->plainTextEdit_2->hide();
+
 
 
     connect(ui->plainTextEdit->document(), &QTextDocument::modificationChanged, this, &MainWindow::documentWasModified);
